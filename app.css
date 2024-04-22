@@ -1,0 +1,200 @@
+.order1 {
+  background-color: #0c6980;
+  height: 914px;
+}
+
+body,html{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  background-color: #0c6980;
+}
+
+.order-2 {
+  background-color: #F7EDDE;
+  height: 914px;
+}
+
+/* #284B63 og colour */
+
+nav {
+  color: #F7EDDE;
+}
+
+/* #welcomeimg {
+  width: 450px;
+  
+}
+ */
+.welcimg {
+  display: flex;
+  justify-content: center;
+  /* max-width: 500px; */
+}
+
+
+#whitebox {
+  background-color: white;
+  margin: 50px;
+  margin-top: 0px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 20px;
+  max-width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  /* margin-right: 10px; */
+  /* height: 500px; */
+
+}
+
+#whitebox-s2s {
+  background-color: white;
+  margin: 50px auto 0 auto; /* Set top margin to 50px and center horizontally */
+  /* padding: 20px; Add padding for better spacing */
+  box-sizing: border-box;
+  border: 1px solid white;
+  border-radius: 20px;
+}
+
+
+#s2sbutt {
+  background-color: #0e7c97;
+  border: 0px;
+  margin: 5px;
+  padding: 10px;
+}
+
+button:hover{
+  transform: scale(1.15);
+  transition: all 0.25s ease-in-out;
+}
+
+#whitebox-text {
+  margin-top: 15px;
+  color: #0c6980;
+  display: block;
+  font-size: 1.1rem;
+}
+
+.toggle{
+  color: #0c6980;
+  border-color:  #0c6980;
+}
+
+#main-head {
+  color: #F7EDDE;
+  transform: scale(1.5);
+  margin-bottom: 35px;
+}
+
+#twobutton {
+  color: black;
+  background-color: #F7EDDE;
+  border-radius: 40px;
+  box-sizing: border-box;
+}
+
+#infotext {
+  color: black;
+}
+
+.two-button-head, .navbar-brand, .navbar-nav li a {
+  color: #0c6980;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.rubik {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.martel-sans {
+  font-family: "Martel Sans", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* speechtosign code */
+.word-container {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  white-space: nowrap;
+  /* border: 5px solid black; */
+}
+
+.word-images .single-letter {
+  display: inline-block;
+}
+
+.letters {
+  border: 0px solid white;
+  border-radius: 10px;
+  margin: 2px;
+}
+
+
+#s2sform {
+  padding-left: 50px;
+  padding-right: 50px;
+
+}
+.second{
+  padding: 80px 10% 20px 8%;
+  background-color: white;
+
+}
+.secondpart{
+  display: flex;
+  justify-content: center;
+}
+.introtitle{
+  color: #0c6980;
+}
+.comein{
+  font-size: 1.9rem;
+  font-style: bold;
+}
+.introductiontext{
+  padding-top: 30px;
+}
+.introductiontext,.introductiontext2{
+  /* font-style:Andale Mono,monospace ; */
+  font-size: 1.3rem;
+  line-height: 40px;
+  color: #07333e;
+}
+#sugg{
+  background-color: white;
+  color: #0c6980;
+  border-radius: 15px;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.btn-group {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: grid; /* Set display to grid */
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* Automatically adjust column size */
+  gap: 5px; /* Add gap between buttons */
+  justify-content: center; 
+}
+
+.btn-secondary.suggestion {
+  margin: 5px; /* Add margin around buttons for spacing */
+}
+

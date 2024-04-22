@@ -1,0 +1,49 @@
+/* Override Bootstrap defaults */
+.btn-primary {
+  background-color: #0c6980;
+  border-color: #0c6980;
+}
+
+.btn-primary:hover {
+  background-color: #284b63;
+  border-color: #284b63;
+}
+
+.nav-link.active {
+  background-color: #0c6980;
+  color: white;
+}
+
+.nav-link {
+  color: #0c6980;
+}
+
+.card {
+  background-color: white;
+}
+
+.card-header {
+  background-color: white;
+  border-bottom: none;
+}
+
+.card-body {
+  background-color: white;
+}
+
+.card-header .nav-link.active {
+  color: white;
+}
+
+/* Additional styling */
+#main-head {
+  color: #F7EDDE;
+  transform: scale(1.5);
+  margin-bottom: 35px;
+}
+
+.poppins-thin {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
